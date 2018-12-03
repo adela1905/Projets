@@ -1,0 +1,4 @@
+/* I am experiencing with this issue since some time now. And I think it's causing a bit more problems on my devlopment process */
+  vagrant@ubuntu-xenial:~$ ping google.com
+    connect: Network is unreachable
+/* This denotes that nameresolution is not working properly */
