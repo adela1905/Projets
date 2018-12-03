@@ -2,3 +2,17 @@
   vagrant@ubuntu-xenial:~$ ping google.com
     connect: Network is unreachable
 /* This denotes that nameresolution is not working properly */
+
+Moyennant une petite lecture sur le site de Ubuntu
+
+https://ubuntuforums.org/showthread.php?t=2152047
+
+Et une petite manipulation qui m'a mis hors de mon systeme pendant un certain temps. Le probleme est resolue, la procedure consiste 
+donc modifié la ligne suivante :
+
+    /* ... iface eth0 inet static
+    ... */
+    dns-search  domain.name
+dans le fichier : /etc/resolv.conf 
+et ensuite de redemarrer simplement les services réseaux
+    sudo service networking restart
