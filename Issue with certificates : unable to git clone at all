@@ -19,3 +19,11 @@ But still not working
 */
 
 A possible woraound that I just test I to 
+/*----------------------------------------*/
+export GIT_SSL_NO_VERIFY=1
+#or
+git config --global http.sslverify false
+/*-----------------------------------------*/
+/*
+The post is from VonC
+*
