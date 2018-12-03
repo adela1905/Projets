@@ -1,0 +1,21 @@
+I am going through the following issue
+/* cloning the bitcoin source in my system so as to install from source */
+The Error I am getting here is described as follows :
+
+  vagrant@ubuntu-xenial:~/HelloEther$ sudo git clone https://github.com/bitcoin/bitcoin.git
+  Cloning into 'bitcoin'...
+  fatal: unable to access 'https://github.com/bitcoin/bitcoin.git/': server certificate verification failed. CAfile: /etc/ssl/certs/ca-certificates.crt CRLfile: none
+
+/*
+Really messing everything up
+*/
+
+Possible solutions :
+
+https://stackoverflow.com/questions/21181231/server-certificate-verification-failed-cafile-etc-ssl-certs-ca-certificates-c
+
+/*
+But still not working
+*/
+
+A possible woraound that I just test I to 
